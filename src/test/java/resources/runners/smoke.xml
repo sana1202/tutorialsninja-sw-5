@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smoketestsuite" verbose="1" >
+    <groups>
+        <run>
+            <include name="smoke"></include>
+        </run>
+    </groups>
+    <test name="Smoke TopMenu Test" >
+        <classes>
+            <class name="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
+        </classes>
+    </test>
+</suite>

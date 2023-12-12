@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="listenerstestsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.tutorialsninja.demo.customlisteners.CustomListeners"/>
+    </listeners>
+    <test name="Listeners TopMenuTest Test" >
+        <classes>
+            <class name="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
+        </classes>
+    </test>
+</suite>
